@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 
 ### セットアップ
 0. pythonをインストール
-1. リポジトリをクローン
+1. リポジトリをクローン・移動
     ```shell
     git clone https://github.com/kurage1/mercator_map_explorer.git
     cd mercator_map_explorer
