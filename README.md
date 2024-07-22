@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 
 ### セットアップ
 0. pythonをインストール
-1. 仮想環境を作成（推奨）
+1. 仮想環境を作成・有効化（推奨）
    - macOSまたはLinux
      ```shell
      python -m venv myenv
@@ -34,3 +34,8 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 3. 実行
     ```shell
     python mercator_map_explorer.py
+    ```
+4. （仮想環境から抜ける）
+    ```shell
+    deactivate
+    ```
