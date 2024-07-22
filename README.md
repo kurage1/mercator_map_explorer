@@ -17,7 +17,12 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 
 ### セットアップ
 0. pythonをインストール
-1. 仮想環境を作成・有効化（推奨）
+1. リポジトリをクローン
+    ```shell
+    git clone https://github.com/kurage1/mercator_map_explorer.git
+    cd mercator_map_explorer
+    ```
+3. 仮想環境を作成・有効化（推奨）
    - macOSまたはLinux
      ```shell
      python -m venv myenv
@@ -25,17 +30,18 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
      ```
    - Windows
      ```shell
+     python -m venv myenv
      myenv\Scripts\activate
      ```
-2. 依存関係をインストール
+4. 依存関係をインストール
     ```shell
     pip install -r requirements.txt
     ```
-3. 実行
+5. 実行
     ```shell
     python mercator_map_explorer.py
     ```
-4. （仮想環境から抜ける）
+6. （終了後、仮想環境から抜ける）
     ```shell
     deactivate
     ```
