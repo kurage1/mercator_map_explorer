@@ -1,5 +1,4 @@
 import geopandas as gpd
-import matplotlib.widgets as wg
 import matplotlib.pyplot as plt
 import matplotlib.style as mplstyle
 import numpy as np
