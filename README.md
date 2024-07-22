@@ -10,12 +10,10 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 地図データはhttps://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-coastline/ より。
 ただしデータは間引きしています。
 
-## インストール
-
-### 動作環境
+## 動作環境
  - macOSにて、```python 3.11.6```及び```3.12.2```で動作確認済み。
 
-### セットアップ
+## セットアップ
 0. pythonをインストール
 1. リポジトリをクローン・移動
     ```shell
