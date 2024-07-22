@@ -13,7 +13,7 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 ## インストール
 
 ### 動作環境
- - python 3.11.6で動作確認済み。
+ - macOSにて、```python 3.11.6```及び```3.12.2```で動作確認済み。
 
 ### セットアップ
 0. pythonをインストール
