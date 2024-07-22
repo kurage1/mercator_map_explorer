@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
      ```
    - Windows
      ```shell
-     python3 -m venv myenv
+     python -m venv myenv
      myenv\Scripts\activate
      ```
 4. 依存関係をインストール
@@ -38,9 +38,14 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
     pip install -r requirements.txt
     ```
 5. 実行
-    ```shell
-    python3 mercator_map_explorer.py
-    ```
+   - macOSまたはLinux
+     ```shell
+     python3 mercator_map_explorer.py
+     ```
+   - Windows
+     ```shell
+     python mercator_map_explorer.py
+     ```
 6. （終了後、仮想環境から抜ける）
     ```shell
     deactivate
