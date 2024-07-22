@@ -25,12 +25,12 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
 3. 仮想環境を作成・有効化（推奨）
    - macOSまたはLinux
      ```shell
-     python -m venv myenv
+     python3 -m venv myenv
      source myenv/bin/activate
      ```
    - Windows
      ```shell
-     python -m venv myenv
+     python3 -m venv myenv
      myenv\Scripts\activate
      ```
 4. 依存関係をインストール
@@ -39,7 +39,7 @@ https://github.com/user-attachments/assets/3ec768c8-c280-472e-a575-ffe37e39fcc6
     ```
 5. 実行
     ```shell
-    python mercator_map_explorer.py
+    python3 mercator_map_explorer.py
     ```
 6. （終了後、仮想環境から抜ける）
     ```shell
